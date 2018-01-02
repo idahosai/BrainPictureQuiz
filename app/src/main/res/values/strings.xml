@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BrainPictureQuiz</string>
+    <string name="txt_brain_picture_quiz_value">Brain Picture Quiz</string>
+    <string name="btn_play_value">Play</string>
+    <string name="btn_score_board_value">Score Board</string>
+    <string name="btn_answer_text">Answer</string>
+    <string name="txt_lives_value">Lives</string>
+    <string name="txt_score_value">Score</string>
+    <string name="txt_user_score_value">0</string>
+    <string name="txt_user_lives_value">3</string>
+    <string name="txt_top_three_value">Top 3</string>
+    <string name="txt_top_five_value">Top 5</string>
+    <string name="btn_back_value">Back</string>
+    <string name="txt_how_to_play_value">How To Play</string>
+    <string name="txt_instruction_value">An app that scores your ability to remember the most recurring image displayed in a series of other images. The images stay on screen for a short period of time before switching unto the next. When the images are done changing, it will stop and take you to a different screen where you will select correctly what image appear the most. Each user has 3 lives to make a mistake. During each round of this game, you will lose a life if you select the wrong image. If you select the correct image, you will increase your overall score which can be added to the scoreboard.</string>
+    <string name="txt_user_placement_value">1.</string>
+    <string name="txt_name_value">Iggy</string>
+    <string name="txt_saved_score_value">: 10</string>
+</resources>
