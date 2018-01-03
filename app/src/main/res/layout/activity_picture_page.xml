@@ -12,7 +12,7 @@
         android:layout_height="117dp"
         android:layout_marginStart="144dp"
         android:layout_marginTop="52dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/batman"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,7 +22,7 @@
         android:layout_height="118dp"
         android:layout_marginEnd="24dp"
         android:layout_marginTop="52dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/blackpanther"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,7 +32,7 @@
         android:layout_height="118dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/captainamerica"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_one" />
 
@@ -42,7 +42,7 @@
         android:layout_height="118dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/greenlantern"
         app:layout_constraintStart_toEndOf="@+id/img_four"
         app:layout_constraintTop_toBottomOf="@+id/img_two" />
 
@@ -52,7 +52,7 @@
         android:layout_height="118dp"
         android:layout_marginEnd="24dp"
         android:layout_marginTop="28dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ironfist"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_three" />
 
@@ -62,7 +62,7 @@
         android:layout_height="118dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="52dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ironman"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,7 +73,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/spiderman"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/img_seven"
         app:layout_constraintTop_toBottomOf="@+id/img_five"
@@ -86,7 +86,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="28dp"
         android:layout_marginTop="28dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/superman"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_six"
@@ -99,7 +99,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/thor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_four"

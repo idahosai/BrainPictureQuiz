@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends Activity {
     private Button btnPlay;
     private Button btnScoreBoard;
+
     View.OnClickListener playListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -19,6 +20,7 @@ public class MainActivity extends Activity {
             startActivity(intent);
         }
     };
+
     View.OnClickListener ScoreBoardListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {

@@ -16,4 +16,5 @@
     <string name="txt_user_placement_value">1.</string>
     <string name="txt_name_value">Iggy</string>
     <string name="txt_saved_score_value">: 10</string>
+    <string name="empty_insert">%s</string>
 </resources>
