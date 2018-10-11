@@ -50,6 +50,7 @@ public class ScoreBoardPageActivity extends Activity {
         ArrayList<UserHighScore> topThreeStored;
         ArrayList<UserHighScore> lastFiveEntryStored;
 
+
         int maxLength = 9;
 
         userHighScores = userHighScoredb.getAllUserAndHighScore();
