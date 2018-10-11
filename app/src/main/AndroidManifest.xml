@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".GamePageActivity" />
         <activity android:name=".ScoreBoardPageActivity" />
-        <activity android:name=".PicturePageActivity"></activity>
+        <activity android:name=".PicturePageActivity" />
+        <activity android:name=".HowToPlayActivity"></activity>
     </application>
 
 </manifest>

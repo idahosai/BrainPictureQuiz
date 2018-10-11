@@ -3,6 +3,8 @@ package com.example.iidah.brainpicturequiz;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -14,7 +16,6 @@ public class MainActivity extends Activity {
     View.OnClickListener playListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            //activity and lay out are different this here takes the activity
             Intent intent = new Intent(getApplicationContext(), GamePageActivity.class);
 
             startActivity(intent);
@@ -38,17 +39,20 @@ public class MainActivity extends Activity {
 
         btnPlay.setOnClickListener(playListener);
         btnScoreBoard.setOnClickListener(ScoreBoardListener);
-        //getPastedSavings();  // i don't think i need to use this here
 
     }
 
-    protected  void onPause(){
-        super.onPause();
-        //what would i save here nothing?
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
 
-
-    public void getPastedSavings(){
-
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if(id == R.id.item_how_to_play){
+            Intent intent = new Intent(getApplicationContext(),HowToPlayActivity.class);
+            startActivity(intent);
+        }
+        return true;
     }
 }
