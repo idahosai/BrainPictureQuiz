@@ -66,6 +66,7 @@ public class PicturePageActivity extends Activity {
         imgSix.setTag(R.drawable.ironfist);
         imgSix.setOnClickListener(imgListener);
 
+
         imgSeven = (ImageView)findViewById(R.id.img_seven);
         imgSeven.setTag(R.drawable.thor);
         imgSeven.setOnClickListener(imgListener);
